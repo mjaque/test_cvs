@@ -3,4 +3,8 @@ public class Libro{
 	public Libro(String titulo){
 		this.titulo = titulo;
 	}
+
+	public String getTitulo(){
+		return titulo;
+	}
 }
